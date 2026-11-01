@@ -1,0 +1,10 @@
+# Nix build outputs
+result
+result-*
+
+# Secrets
+secrets/
+.env
+.env.*
+*.pem
+*.key
