@@ -111,13 +111,15 @@
 	programs.firefox = {
 		enable = true;
 	};
-
+	
+	programs.gh.enable = true;
+	
 	programs.git = {
 		enable = true;
 
 		settings = {
 			user = {
-				name = "vimyoung";
+				name = "nvimyoung";
 				email = "zezero1233@gmail.com";
 			};
 
